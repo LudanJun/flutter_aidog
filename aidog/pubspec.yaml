@@ -1,0 +1,58 @@
+name: aidog
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pretty_dio_logger: 1.4.0 #logo日志 发布的时候放在这
+  dio: 5.7.0 #网络请求
+  json_annotation: ^4.9.0 #json注解
+  provider: 6.1.2 #网络请求
+  cached_network_image: 3.4.1 #网络图片缓存
+  flutter_screenutil: 5.9.3 #屏幕适配
+  shared_preferences: 2.3.2 #本地存储
+  flutter_swiper_view: 1.1.8 #轮播图
+  flutter_native_splash: 2.4.1 #启动页
+  intro_views_flutter: 3.2.0 #引导页
+  fluttertoast: 8.2.8 #吐司小组件
+  flutter_easyloading: ^3.0.5 #加载控件
+  package_info_plus: 8.0.3 #查询应用程序包的信息。
+  connectivity_plus: 6.0.5 #网络状态检查
+  loading_indicator: ^3.1.1 #加载指示器
+  image_picker: ^1.1.2 #图片视频选择 拍照录制 在登录设置头像使用
+  amap_flutter_location: ^3.0.0 #高德定位
+  amap_flutter_map: ^3.0.0 #高德地图
+  permission_handler: ^11.3.1 #权限申请
+  #https://pub.dev/packages/app_settings/example
+  app_settings: ^5.1.1 #打开app设置
+  # pin_code_fields: ^8.0.1 #六格验证码
+  easy_refresh: ^3.4.0 #上下拉刷新
+  extended_nested_scroll_view: ^6.2.1 #滚动扩展
+  flutter_staggered_grid_view: ^0.7.0 #瀑布流可以不同高度
+  wechat_assets_picker: ^9.3.3 #微信图片视频选择
+  uuid: 4.5.1 #uuid唯一
+  camerawesome: 2.1.0 #摄像头拍照录视频
+  video_compress: 3.1.1 #视频压缩 3.1.1以后版本安卓会报错
+  flutter_image_compress: 2.3.0 #图片压缩
+  path_provider: 2.1.4 #路径
+  logger: ^2.4.0 #日志
+  flutter_smart_dialog: ^4.9.8+3 #各种弹框
+  flutter_datetime_picker_plus: ^2.2.0 #底部时间选择器
+  intl: any #可以使用日期格式化
+  # tdesign_flutter: ^0.1.7 #腾讯ui组件
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.8.0 #转换数据
+  build_runner: 2.4.11 #通过命令行形式转换
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
